@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 # Read data from the CSV file
-data = pd.read_csv('Biomechanics Analysis - Metadata Raw.csv')
+data = pd.read_csv('Biomechanics Analysis - Metadata Raw (1).csv')
 
 # Extract features and pitch speed from the data
 features = data[['session_mass_kg', 'session_height_m', 'age_yrs', 'playing_level']]
