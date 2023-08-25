@@ -9,7 +9,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.impute import SimpleImputer
 
 # Load data from CSV into a pandas DataFrame
-data = pd.read_csv('poi_metrics.csv')
+data = pd.read_csv('poi_metrics (1).csv')
 
 # Drop columns that are not needed for analysis
 data = data.drop(['session_pitch', 'session', 'p_throws', 'pitch_type'], axis=1)
