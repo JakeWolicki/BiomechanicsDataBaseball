@@ -1,5 +1,2 @@
 # BiomechanicsDataBaseball
-Driveline Biomechanics Baseball Data Analysis 
-
-
-PUT INFO ABOUT THE CODE
+Using data from Driveline Biomechanics for baseball data analysis
