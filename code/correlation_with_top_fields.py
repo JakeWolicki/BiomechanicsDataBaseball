@@ -90,16 +90,6 @@ for feature in selected_features:
     plt.show()
 
 # Further analysis and optimization using selected features
-# For example, you can calculate correlation coefficients between selected features and pitch_speed_mph
 correlations = data[selected_features + ['pitch_speed_mph']].corr()
 print("Correlation Matrix:")
 print(correlations)
-
-# You can also engineer new features based on the selected ones
-data['interaction_feature'] = data['selected_feature_1'] * data['selected_feature_2']
-# ... (other feature engineering steps)
-
-# Train models with the optimized features and evaluate performance
-# ... (use the selected features for training and evaluation)
-
-# ... (additional analysis and optimization steps)
